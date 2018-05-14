@@ -1,0 +1,3 @@
+rootProject.name = 'FileAccess'
+
+include ':app'

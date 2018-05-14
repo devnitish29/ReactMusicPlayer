@@ -76,10 +76,10 @@ export default class App extends Component {
 
 const AppTabNavigator = TabNavigator(
   {
+    SONGS: { screen: FileListScreen },
     PlayList: { screen: PlayListScreen },
     Artists: { screen: ArtistsScreen },
     Albums: { screen: AlbumsScreen },
-    SONGS: { screen: FileListScreen },
     Genres: { screen: GenresScreen }
   },
   {

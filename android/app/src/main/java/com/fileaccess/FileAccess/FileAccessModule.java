@@ -95,7 +95,7 @@ public class FileAccessModule extends ReactContextBaseJavaModule {
                     ex.printStackTrace();
                 }
 
-                Log.e("ReactNativeJS:", "getMusicFilePath: " + items.toString());
+
                 jsonArray.pushMap(items);
 
             } while (cursor.moveToNext());

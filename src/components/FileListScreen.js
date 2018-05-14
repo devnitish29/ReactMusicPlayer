@@ -1,43 +1,44 @@
 //import liraries
 import React, { Component } from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView, NativeModules } from "react-native";
 import SongItemView from "./SongItemView";
 
-// import RNFS from "react-native-fs";
+const TestModule = NativeModules.FILEACCESS;
 
 // create a component
 class FileListScreen extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tracks: []
+    };
+  }
+
+  componentDidMount() {
+    this.message();
+  }
+
+  message = () => {
+    TestModule.getMusicFilePath(msg => {
+      this.setState({
+        tracks: msg
+      });
+    });
+  };  
+
+  renderTracks() {
+    return this.state.tracks.map(track => <SongItemView key={track.TRACK_ID} trackObject={track}/>);
+  }
 
   render() {
     return (
       <ScrollView style={{ margin: 10 }}>
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
-        <SongItemView />
+      {this.renderTracks()}
       </ScrollView>
-        
-   
-    )};
+
+
+    )
+  };
 
 
 

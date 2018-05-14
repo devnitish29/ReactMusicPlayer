@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/exploded-aar/FileAccess/react-native-sound-player/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0c360fc6bb2e6c60c09ef593531662ca1c0c05b6">
+        <dex dex="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/pre-dexed/debug/FileAccess-react-native-sound-player-unspecified_283a7f8ecaff70fa7ed0cb6b4684bf73d64915c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
@@ -63,6 +72,15 @@
         revision="23.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_fce893d78dd057f5d51c63900796625cfb1d386f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/exploded-aar/FileAccess/react-native-sound/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="627c8e880e7b82dbc3d7de52b02b52ad88c9c9b9">
+        <dex dex="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/pre-dexed/debug/FileAccess-react-native-sound-unspecified_a82a3790b14d484709b926f4c05abe485fe9ae01.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,21 +147,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/nitish/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_6a99886bbcc790c602152533d369dcbc63c94126.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/nitish/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
         <dex dex="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_efbd925382d4b9382d0b17ccb9c30ad374cb6832.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/nitish/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/nitish/WorkSpace/React-learning/FileAccess/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_6a99886bbcc790c602152533d369dcbc63c94126.jar" />
     </item>
     <item
         is-multidex="false"
